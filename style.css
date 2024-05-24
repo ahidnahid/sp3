@@ -1,0 +1,67 @@
+
+body{
+
+    background-color:khaki;
+}
+
+h1 {
+    color:black;
+    text-align: center;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  footer{
+    background-color: black;
+    img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 50px;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      
+    
+
+    h3{
+        text-align: center;
+     color: aliceblue;
+    }
+    h3{
+        color: aliceblue;
+    }
+    a{
+        text-align: center;
+        color:aliceblue;
+    }
+    a{
+        text-align:center;
+        color: aliceblue;
+    
+        
+    }
+
+  }
